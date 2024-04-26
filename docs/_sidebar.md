@@ -1,0 +1,63 @@
+Go Cookbook 是Go学习过程中,积累和整理的材料。
+
+- 概览
+  - [简介](zh-cn/intro)
+  - [快速开始](zh-cn/quickstart)
+- 字符串
+  - [字符串数据结构](zh-cn/string_structure)
+  - [字符串长度](zh-cn/string_length)
+  - [字符串内搜索](zh-cn/string_search)
+  - [trim](zh-cn/string_trim)
+  - [encoding](zh-cn/string_encoding)
+  - [json-字符串-map](zh-cn/json)
+- 数组
+  - [常见数组操作](zh-cn/array)
+- Struct
+  - [获取struct的字段和方法](zh-cn/refect_fileds)
+  - [把struct转换成字符串](zh-cn/struct_string)
+- 异步任务
+  - [sync](zh-cn/sync)
+- 反射
+  - [获取struct的字段和方法](zh-cn/refect_fileds)
+- 操作系统相关
+  - [uac](zh-cn/uac)
+  - [window WMI](zh-cn/wmi)
+- 系统信息
+  - [gopsutil](zh-cn/gopsutil)
+- 文件系统
+  - [读文件](zh-cn/readfile)
+  - [读目录](zh-cn/readdir)
+  - [fsnotify文件监控](zh-cn/fsnotify)
+  - [临时文件](zh-cn/ioutil_temp)
+  - [filepath](zh-cn/filepath)
+  - [filewalk](zh-cn/filewalk)
+  - [路径相关的常见函数](zh-cn/pathfuncs)
+- 日志系统
+  - [Logrus](zh-cn/logrus)
+- 配置
+  - [viper](zh-cn/viper)
+- 服务器
+  - [Gin](zh-cn/gin)
+- 命令行
+  - [urfave/cli-v2](zh-cn/urfave_cli)
+  - [cobra](zh-cn/cobra)
+- 文件植入
+  - [embed](zh-cn/embed)
+  - [packr](zh-cn/packr) 
+- 文件扫描
+  - [yapscan](zh-cn/yapscan)
+- 序列化、压缩算法
+  - [Zstandard](zh-cn/zstd)
+  - [pickle](zh-cn/pickle)
+- Wails
+  - [Wails Proxy](zh-cn/wails_proxy)
+- 免杀
+  - [Mangle to remove IoC](zh-cn/Mangle)
+  - [Limelighter to Sign certificates](zh-cn/Limelighter)
+  - [uac](zh-cn/uac)
+- 浏览器
+  - [HackBrowserData to decrypting browser data](zh-cn/HackBrowserData)
+- 打包
+  - [Properties/Version/Resource Generator](zh-cn/goversioninfo)
+  - [JavaScript bundler](zh-cn/esbuild)
+  - [Garble to Obfuscate Go builds](zh-cn/garble)
