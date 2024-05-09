@@ -1,3 +1,17 @@
+## install
+
+```
+npm i docsify-cli -g
+docsify init ./gobook
+```
 ## run
 
-docsify serve docs
+in root folder
+```
+docsify serve gobook
+```
+
+
+## references
+
+- [docsify quickstart](https://docsify.js.org/#/quickstart)
