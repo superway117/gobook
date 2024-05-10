@@ -3,7 +3,7 @@ proxy_cache_path /etc/nginx/books_cache levels=1:2 keys_zone=books_cache:100m in
 server {
     listen 80;
 
-    server_name gobook.zbstream.com;
+    server_name go.zbstream.com;
     root /root/workshop/gobook/gobook/;
 
     index index.html;
