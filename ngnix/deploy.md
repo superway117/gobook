@@ -14,6 +14,9 @@ ln -s ../sites-available/gobook.zbstream.com gobook.zbstream.com
 ```
 service nginx restart
 ```
-
+```
+nginx -t
+nginx -s reload
+```
 
 

@@ -1,5 +1,3 @@
-Go Cookbook 是Go学习过程中,积累和整理的材料。
-
 - 概览
   - [简介](zh-cn/intro)
   - [快速开始](zh-cn/quickstart)
