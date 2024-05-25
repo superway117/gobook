@@ -155,6 +155,24 @@ a/b/c
 5/10
 .
 ```
+
+## filepath.Base提取文件名
+
+```
+package main
+
+import (
+    "fmt"
+    "path/filepath"
+)
+
+func main() {
+    filePath := "/path/to/file.txt" // 替换为实际的文件路径
+
+    fileName := filepath.Base(filePath)
+    fmt.Println("文件名:", fileName)
+}
+```
 ## References
 
 - [filepath api](https://pkg.go.dev/path/filepath#Clean)

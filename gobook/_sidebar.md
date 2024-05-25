@@ -48,7 +48,9 @@
   - [Zstandard](zh-cn/zstd)
   - [pickle](zh-cn/pickle)
 - Wails
-  - [Wails Proxy](zh-cn/wails_proxy)
+  - [Wails Start](zh-cn/wails_start)
+- 流量分析
+  - [go_netflow进程流量监控](zh-cn/go_netflow)
 - 免杀
   - [Mangle to remove IoC](zh-cn/Mangle)
   - [Limelighter to Sign certificates](zh-cn/Limelighter)
@@ -59,3 +61,6 @@
   - [Properties/Version/Resource Generator](zh-cn/goversioninfo)
   - [JavaScript bundler](zh-cn/esbuild)
   - [Garble to Obfuscate Go builds](zh-cn/garble)
+
+
+  

@@ -4,6 +4,16 @@
 
 参考`Go`[官方网站](https://go.dev/doc/install)
 
+linux安装
+```
+wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
+tar -xzvf go1.22.3.linux-amd64.tar.gz 
+vim  /etc/profile
+export PATH=$PATH:/usr/local/go/bin
+go version
+````
+
+
 **查看版本**
 
 `console`执行`go version`,如返回如下版本号,即表示安装成功.
