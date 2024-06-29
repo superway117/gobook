@@ -7,6 +7,7 @@
   - [字符串内搜索](zh-cn/string_search)
   - [trim](zh-cn/string_trim)
   - [encoding](zh-cn/string_encoding)
+  - [split](zh-cn/string_split)
   - [json-字符串-map](zh-cn/json)
 - 数组
   - [常见数组操作](zh-cn/array)
@@ -61,6 +62,8 @@
   - [Properties/Version/Resource Generator](zh-cn/goversioninfo)
   - [JavaScript bundler](zh-cn/esbuild)
   - [Garble to Obfuscate Go builds](zh-cn/garble)
-
+- 通道
+  - [Trojan-Go](zh-cn/Trojan-Go)
+ 
 
   
