@@ -1,47 +1,11 @@
-## 返回空字符串数组
+## quickstart
 
-```go
-func GetEmptyStringSlice() []string {  
-    return []string{}  
-}
-```
+BCC 是一个用于创建高效内核跟踪和操作程序的工具包，包括几个有用的工具和示例。它利用扩展的 BPF（Berkeley Packet Filters），正式名称为 eBPF，这是 Linux 3.15 中首次添加的新功能。BCC 使用的大部分内容都需要 Linux 4.1 及更高版本。
 
-## 返回数组个数
 
-在Go语言中，如果你想要返回数组的长度（即数组中元素的个数），你可以直接使用内置的len函数。但是，需要注意的是，数组的长度在声明时是固定的，并且在整个生命周期中保持不变。因此，一旦你声明了一个数组，它的长度就已经确定了。
 
-```go
-package main  
-  
-import "fmt"  
-  
-func main() {  
-    // 声明一个长度为5的整数数组  
-    arr := [5]int{1, 2, 3, 4, 5}  
-  
-    // 使用len函数获取数组的长度（元素个数）  
-    length := len(arr)  
-  
-    // 打印数组的长度  
-    fmt.Println("数组的长度是:", length) // 输出: 数组的长度是: 5  
-}
-```
+## References
+- [github bcc](https://github.com/iovisor/bcc)
+- [linux跟踪技术之ebpf](https://www.freebuf.com/articles/network/353842.html)
+- [eBPF - 释放 Linux 内核](https://www.freebuf.com/articles/container/390120.html)
 
-如果你正在使用切片（slice）而不是数组，并且你想要返回切片的长度（即当前包含的元素个数），你也可以使用len函数，就像这样：
-
-```go
-package main  
-  
-import "fmt"  
-  
-func main() {  
-    // 声明一个切片并初始化它  
-    slice := []int{1, 2, 3, 4, 5}  
-  
-    // 使用len函数获取切片的长度（元素个数）  
-    length := len(slice)  
-  
-    // 打印切片的长度  
-    fmt.Println("切片的长度是:", length) // 输出: 切片的长度是: 5  
-}
-```
