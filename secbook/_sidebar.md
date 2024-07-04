@@ -25,5 +25,5 @@
 - 探测
   - [attackgen](zh-cn/attackgen)
 - 杀软绕过
-  - [attackgen](zh-cn/attackgen)
+  - [packerlist](zh-cn/packerlist)
  
