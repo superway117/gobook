@@ -1,6 +1,7 @@
 - 控制
   - [linuxrootkit](zh-cn/linuxrootkit)
-  - [字符串长度](zh-cn/string_length)
+  - [Father](zh-cn/father)
+  - [Medusa](zh-cn/medusa)
   - [字符串内搜索](zh-cn/string_search)
   - [trim](zh-cn/string_trim)
   - [encoding](zh-cn/string_encoding)
