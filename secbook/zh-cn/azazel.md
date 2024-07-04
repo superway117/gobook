@@ -1,50 +1,21 @@
-> 了解如何通过notifier给飞书群发消息
-
+ 
 ## Quickstart
 
-**Install**
-```
-go get -u github.com/moond4rk/notifier
-```
-## Usage
+[Azazel](https://github.com/chokepoint/azazel) is a userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit. It is more robust and has additional features, and focuses heavily around anti-debugging and anti-detection.
 
 
-```go
-package main
+- Anti-debugging
+- Avoids unhide, lsof, ps, ldd detection
+- Hides files and directories
+- Hides remote connections
+- Hides processes
+- Hides logins
+- PCAP hooks avoids local sniffing
+- Two accept backdoors.
+- Crypthook encrypted accept() backdoor -- Full PTY
+- Plaintext accept() backdoor -- Full PTY
+- PAM backdoor for local privesc and remote entry
+- Log cleanup for utmp/wtmp entries based on pty
 
-import (
-    "os"
-
-    "github.com/moond4rk/notifier"
-)
-
-func main() {
-    var (
-        dingtalkToken     = os.Getenv("dingtalk_token")
-        dingtalkSecret    = os.Getenv("dingtalk_secret")
-        barkKey           = os.Getenv("bark_key")
-        barkServer        = notifier.DefaultBarkServer
-        feishuToken       = os.Getenv("feishu_token")
-        feishuSecret      = os.Getenv("feishu_secret")
-        larkToken         = os.Getenv("lark_token")
-        larkSecret        = os.Getenv("lark_secret")
-        serverChanUserID  = "" // server chan's userID could be empty
-        serverChanSendKey = os.Getenv("server_chan_send_key")
-    )
-    notifier := notifier.New(
-        notifier.WithDingTalk(dingtalkToken, dingtalkSecret),
-        notifier.WithBark(barkKey, barkServer),
-        notifier.WithFeishu(feishuToken, feishuSecret),
-        notifier.WithLark(larkToken, larkSecret),
-        notifier.WithServerChan(serverChanUserID, serverChanSendKey),
-    )
-
-    var (
-        subject = "this is subject"
-        content = "this is content"
-    )
-    if err := notifier.Send(subject, content); err != nil {
-        panic(err)
-    }
-}
-```
+## References
+- [github azazel](https://github.com/chokepoint/azazel)

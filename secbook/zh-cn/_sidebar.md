@@ -3,7 +3,7 @@
   - [Father](zh-cn/father)
   - [Medusa](zh-cn/medusa)
   - [azazel](zh-cn/azazel)
-  - [trim](zh-cn/string_trim)
+  - [linux进程隐藏](zh-cn/linuxprocesshide)
   - [encoding](zh-cn/string_encoding)
   - [split](zh-cn/string_split)
   - [json-字符串-map](zh-cn/json)
@@ -22,7 +22,7 @@
 - 沙箱技术
   - [bcc](zh-cn/bcc)
 - 应急监测
-  - [attackgen](zh-cn/attackgen)
+  - [unhide](zh-cn/unhide)
 - 探测
   - [attackgen](zh-cn/attackgen)
 - 杀软绕过
