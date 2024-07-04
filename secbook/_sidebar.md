@@ -2,7 +2,7 @@
   - [linuxrootkit](zh-cn/linuxrootkit)
   - [Father](zh-cn/father)
   - [Medusa](zh-cn/medusa)
-  - [字符串内搜索](zh-cn/string_search)
+  - [azazel](zh-cn/azazel)
   - [trim](zh-cn/string_trim)
   - [encoding](zh-cn/string_encoding)
   - [split](zh-cn/string_split)
