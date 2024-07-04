@@ -1,5 +1,5 @@
 - 控制
-  - [字符串数据结构](zh-cn/string_structure)
+  - [linuxrootkit](zh-cn/linuxrootkit)
   - [字符串长度](zh-cn/string_length)
   - [字符串内搜索](zh-cn/string_search)
   - [trim](zh-cn/string_trim)
@@ -11,7 +11,7 @@
 - 流量协议分析
   - [常见数组操作](zh-cn/array)
 - 文件静态分析
-  - [获取struct的字段和方法](zh-cn/refect_fileds)
+  - [样本下载](zh-cn/samples)
   - [把struct转换成字符串](zh-cn/struct_string)
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
@@ -22,4 +22,8 @@
   - [bcc](zh-cn/bcc)
 - 应急监测
   - [attackgen](zh-cn/attackgen)
-  
+- 探测
+  - [attackgen](zh-cn/attackgen)
+- 杀软绕过
+  - [attackgen](zh-cn/attackgen)
+ 
