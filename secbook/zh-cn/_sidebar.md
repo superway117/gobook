@@ -5,7 +5,7 @@
   - [azazel](zh-cn/azazel)
   - [linux进程隐藏](zh-cn/linuxprocesshide)
   - [mobile shell mosh](zh-cn/mosh)
- 
+  - [pe_to_shellcode](zh-cn/pe_to_shellcode)
 - 流量报警
   - [常见数组操作](zh-cn/array)
 - 流量协议分析
