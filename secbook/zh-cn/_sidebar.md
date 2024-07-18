@@ -4,9 +4,8 @@
   - [Medusa](zh-cn/medusa)
   - [azazel](zh-cn/azazel)
   - [linux进程隐藏](zh-cn/linuxprocesshide)
-  - [encoding](zh-cn/string_encoding)
-  - [split](zh-cn/string_split)
-  - [json-字符串-map](zh-cn/json)
+  - [mobile shell mosh](zh-cn/mosh)
+ 
 - 流量报警
   - [常见数组操作](zh-cn/array)
 - 流量协议分析
@@ -27,4 +26,5 @@
   - [attackgen](zh-cn/attackgen)
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
+  - [PEzor](zh-cn/pezor)
  
