@@ -27,4 +27,5 @@
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
+  - [antidebug](zh-cn/antidebug)
  
