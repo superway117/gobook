@@ -9,6 +9,7 @@ docsify init ./gobook
 in root folder
 ```
 docsify serve gobook
+docsify serve suricatarules
 ```
 
 
