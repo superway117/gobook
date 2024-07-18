@@ -28,4 +28,6 @@
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
   - [antidebug](zh-cn/antidebug)
+  - [sgn](zh-cn/sgn)
+  - [SigThief](zh-cn/sigthief)
  
