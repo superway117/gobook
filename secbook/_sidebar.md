@@ -16,6 +16,8 @@
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
   - [把struct转换成字符串](zh-cn/struct_string)
+- 源码检测
+  - [bandit](zh-cn/bandit)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
