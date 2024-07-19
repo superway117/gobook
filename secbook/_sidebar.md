@@ -26,6 +26,8 @@
   - [unhide](zh-cn/unhide)
 - 探测
   - [attackgen](zh-cn/attackgen)
+- 数据安全
+  - [lazagne](zh-cn/lazagne )
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
