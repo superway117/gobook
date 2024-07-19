@@ -1,11 +1,3 @@
-> 了解字符串类型的数据结构
-
-> 了解如何通过`reflect`进行指针类型转换
-
-> 了解如何通过`reflect`把指针类型转换uint
-
-
-
 ## 介绍
 
 [embed](https://pkg.go.dev/embed) provides access to files embedded in the running Go program.
@@ -34,7 +26,35 @@ data, _ := f.ReadFile("hello.txt")
 print(string(data))
 ```
 
+```
+package main
 
+import (
+    "embed"
+)
+
+//go:embed folder/single_file.txt
+var fileString string
+
+//go:embed folder/single_file.txt
+var fileByte []byte
+
+//go:embed folder/single_file.txt
+//go:embed folder/*.hash
+var folder embed.FS
+
+func main() {
+
+    print(fileString)
+    print(string(fileByte))
+
+    content1, _ := folder.ReadFile("folder/file1.hash")
+    print(string(content1))
+
+    content2, _ := folder.ReadFile("folder/file2.hash")
+    print(string(content2))
+}
+```
 ## References
 
 - [Go by Example: Embed Directive](https://gobyexample.com/embed-directive)

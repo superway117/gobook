@@ -12,7 +12,7 @@
   - [常见数组操作](zh-cn/array)
 - 文件静态分析
   - [样本下载](zh-cn/samples)
-  - [把struct转换成字符串](zh-cn/struct_string)
+  - [manalyze](zh-cn/manalyze)
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
   - [把struct转换成字符串](zh-cn/struct_string)
