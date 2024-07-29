@@ -40,6 +40,7 @@
 - 命令行
   - [urfave/cli-v2](zh-cn/urfave_cli)
   - [cobra](zh-cn/cobra)
+  - [控制台窗口隐藏](zh-cn/console_window)
 - 文件植入
   - [embed](zh-cn/embed)
   - [packr](zh-cn/packr) 
