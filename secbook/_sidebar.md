@@ -11,7 +11,7 @@
 - 流量报警
   - [常见数组操作](zh-cn/array)
 - 流量协议分析
-  - [常见数组操作](zh-cn/array)
+  - [DPI](zh-cn/dpi)
 - 文件静态分析
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
