@@ -58,3 +58,4 @@ func main() {
 ## References
 
 - [Go by Example: Embed Directive](https://gobyexample.com/embed-directive)
+- [embed-encrypt](https://github.com/lu4p/embed-encrypt)
