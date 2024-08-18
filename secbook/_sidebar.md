@@ -52,5 +52,5 @@
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)
 - 权限管理
-  - [sysrun](Run any executable as SYSTEM account)](zh-cn/sysrun)
+  - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
  
