@@ -8,6 +8,7 @@
   - [pe_to_shellcode](zh-cn/pe_to_shellcode)
   - [ToRat](zh-cn/torat)
   - [GoRat](zh-cn/gorat)
+  - [donut](zh-cn/donut)
 - 流量报警
   - [常见数组操作](zh-cn/array)
 - 流量协议分析
@@ -15,6 +16,7 @@
 - 文件静态分析
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
+  - [sigcheck](zh-cn/https://learn.microsoft.com/zh-cn/sysinternals/downloads/sigcheck)
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
   - [把struct转换成字符串](zh-cn/struct_string)
@@ -26,14 +28,17 @@
   - [bcc](zh-cn/bcc)
 - 应急监测
   - [unhide](zh-cn/unhide)
+  - [sysmon](zh-cn/sysmon)
 - 探测
   - [attackgen](zh-cn/attackgen)
 - 数据安全
-  - [lazagne](zh-cn/lazagne )
+  - [lazagne](zh-cn/lazagne)
+  - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
   - [antidebug](zh-cn/antidebug)
   - [sgn](zh-cn/sgn)
   - [SigThief](zh-cn/sigthief)
+  - [x0rro](zh-cn/x0rro)
  

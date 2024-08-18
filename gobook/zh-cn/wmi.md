@@ -1,5 +1,3 @@
-> 
-
 ## Quickstart
 [wmi](https://github.com/yusufpapurcu/wmi) provides a WQL interface to Windows WMI.
 

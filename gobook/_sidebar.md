@@ -60,9 +60,9 @@
 - 浏览器
   - [HackBrowserData to decrypting browser data](zh-cn/HackBrowserData)
 - 打包
-  - [Properties/Version/Resource Generator](zh-cn/goversioninfo)
-  - [JavaScript bundler](zh-cn/esbuild)
+  - [esbuild: a JavaScript bundler](zh-cn/esbuild)
   - [Garble to Obfuscate Go builds](zh-cn/garble)
+  - [goversioninfo](zh-cn/goversioninfo)
 - 通道
   - [Trojan-Go](zh-cn/Trojan-Go)
  

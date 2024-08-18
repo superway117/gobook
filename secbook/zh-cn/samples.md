@@ -1,3 +1,18 @@
+## MalwareDB
+
+[MalwareDB](https://github.com/EgeBalci/MalwareDB)
+[MalwareDB](https://github.com/gmh5225/MalwareDB)
+
+Size of repository: 1,41 GB
+
+Malware count: 1079 families
+
+Biggest malware family: Backdoor.Win32.Delf: 121 files
+
+Biggest type of malware: Backdoor: 452 families
+
+Password of ZIPs: infected
+
 ## samples download
 | id | source | link | avg_number | avg_size | comment |
 |----|--------|------|------------|----------|---------|
