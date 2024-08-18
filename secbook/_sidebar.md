@@ -16,7 +16,8 @@
 - 文件静态分析
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
-  - [sigcheck](zh-cn/https://learn.microsoft.com/zh-cn/sysinternals/downloads/sigcheck)
+  - [sigcheck](zh-cn/sigcheck)
+  - [unpack](zh-cn/unpack)
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
   - [把struct转换成字符串](zh-cn/struct_string)
@@ -24,6 +25,7 @@
   - [bandit](zh-cn/bandit)
   - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
   - [sigstore-软件签名校验](zh-cn/sigstore)
+  - [c源码 static-analysis](zh-cn/static-analysis)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术

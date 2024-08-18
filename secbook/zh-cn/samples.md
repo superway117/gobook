@@ -82,3 +82,41 @@ Password of ZIPs: infected
 |20||https://github.com/Zusyaku/Source-Code.git|    |||
 |||https://github.com/AgnivaMaity/Malwares-sources|    |||
  
+
+## Malware samples collected for analysis.
+
+[Malware samples collected for analysis.](https://github.com/rshipp/awesome-malware-analysis?tab=readme-ov-file#anonymizers)
+
+ 
+* [Clean MX](http://support.clean-mx.com/clean-mx/viruses.php) - Realtime
+  database of malware and malicious domains.
+* [Contagio](http://contagiodump.blogspot.com/) - A collection of recent
+  malware samples and analyses.
+* [Exploit Database](https://www.exploit-db.com/) - Exploit and shellcode
+  samples.
+* [Infosec - CERT-PA](https://infosec.cert-pa.it/analyze/submission.html) - Malware samples collection and analysis.
+* [InQuest Labs](https://labs.inquest.net) - Evergrowing searchable corpus of malicious Microsoft documents.
+* [Javascript Mallware Collection](https://github.com/HynekPetrak/javascript-malware-collection) - Collection of almost 40.000 javascript malware samples
+* [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) - A resource providing
+  rapid identification and actionable context for malware investigations.
+* [Malshare](https://malshare.com) - Large repository of malware actively
+  scrapped from malicious sites.
+* [Ragpicker](https://github.com/robbyFux/Ragpicker) - Plugin based malware
+  crawler with pre-analysis and reporting functionalities
+* [theZoo](https://github.com/ytisf/theZoo) - Live malware samples for
+  analysts.
+* [Tracker h3x](http://tracker.h3x.eu/) - Agregator for malware corpus tracker
+  and malicious download sites.
+* [vduddu malware repo](https://github.com/vduddu/Malware) - Collection of
+  various malware files and source code.
+* [VirusBay](https://beta.virusbay.io/) - Community-Based malware repository and social network.
+* [ViruSign](http://www.virussign.com/) - Malware database that detected by
+  many anti malware programs except ClamAV.
+* [VirusShare](https://virusshare.com/) - Malware repository, registration
+  required.
+* [VX Vault](http://vxvault.net) - Active collection of malware samples.
+* [Zeltser's Sources](https://zeltser.com/malware-sample-sources/) - A list
+  of malware sample sources put together by Lenny Zeltser.
+* [Zeus Source Code](https://github.com/Visgean/Zeus) - Source for the Zeus
+  trojan leaked in 2011.
+* [VX Underground](http://vx-underground.org/) - Massive and growing collection of free malware samples.
