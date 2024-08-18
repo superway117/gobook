@@ -10,10 +10,10 @@
 
 ## 安全领域相关链接
 
-- [Go 语言设计与实现](https://draveness.me/golang/)
-- [Go语言高级编程(Advanced Go Programming)](https://chai2010.cn/advanced-go-programming-book/index.html)
-- [golangbyexample](https://golangbyexample.com/)
-- [深入Go语言之旅](https://go.cyub.vip)
-- [Go入门指南](https://go.timpaik.top/directory.html)
-- [awesome-go](https://github.com/uhub/awesome-go)
-- [awesome-go.com](https://awesome-go.com/software-packages/)
+- [awesome#security](https://github.com/sindresorhus/awesome#security)
+- [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [awesome-malware-persistence](https://github.com/Karneades/awesome-malware-persistence#readme)
+- [awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing#readme)
+- [awesome-suricata](https://github.com/satta/awesome-suricata#readme)
+- [awesome-hacking](https://github.com/carpedm20/awesome-hacking#readme)
+- [awesome-web-security](https://github.com/qazbnm456/awesome-web-security#readme)
