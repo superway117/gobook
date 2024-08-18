@@ -11,6 +11,7 @@
 ## 安全领域相关链接
 
 - [awesome#security](https://github.com/sindresorhus/awesome#security)
+- [windows-exploitation](https://github.com/sathwikch/windows-exploitation)
 - [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis)
 - [awesome-malware-persistence](https://github.com/Karneades/awesome-malware-persistence#readme)
 - [awesome-executable-packing](https://github.com/packing-box/awesome-executable-packing#readme)

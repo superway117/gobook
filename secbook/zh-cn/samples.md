@@ -83,7 +83,7 @@ Password of ZIPs: infected
 |||https://github.com/AgnivaMaity/Malwares-sources|    |||
  
 
-## Malware samples collected for analysis.
+## Malware samples collected for analysis
 
 [Malware samples collected for analysis.](https://github.com/rshipp/awesome-malware-analysis?tab=readme-ov-file#anonymizers)
 
@@ -120,3 +120,12 @@ Password of ZIPs: infected
 * [Zeus Source Code](https://github.com/Visgean/Zeus) - Source for the Zeus
   trojan leaked in 2011.
 * [VX Underground](http://vx-underground.org/) - Massive and growing collection of free malware samples.
+
+
+## MalwareSourceCode
+
+[MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode)
+
+## APTs PDF
+
+[APTs](https://vx-underground.org/APTs)

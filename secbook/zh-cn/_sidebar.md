@@ -9,8 +9,11 @@
   - [ToRat](zh-cn/torat)
   - [GoRat](zh-cn/gorat)
   - [donut](zh-cn/donut)
+  - [VX-API(malicious functionality)](zh-cn/VX-API)
 - 流量报警
   - [常见数组操作](zh-cn/array)
+- WFP
+  - [WFP实现流量阻断](zh-cn/wfp_block)
 - 流量协议分析
   - [DPI](zh-cn/dpi)
 - 文件静态分析
@@ -33,6 +36,9 @@
 - 应急监测
   - [unhide](zh-cn/unhide)
   - [sysmon](zh-cn/sysmon)
+  - [kunai](zh-cn/kunai)
+  - [whids](zh-cn/whids)
+  - [gene](zh-cn/gene)
 - 探测
   - [attackgen](zh-cn/attackgen)
 - 数据安全
@@ -44,4 +50,7 @@
   - [sgn](zh-cn/sgn)
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
+  - [RefleXXion](zh-cn/RefleXXion)
+- 权限管理
+  - [sysrun](Run any executable as SYSTEM account)](zh-cn/sysrun)
  
