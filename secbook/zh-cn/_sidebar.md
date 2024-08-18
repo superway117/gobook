@@ -22,6 +22,8 @@
   - [把struct转换成字符串](zh-cn/struct_string)
 - 源码检测
   - [bandit](zh-cn/bandit)
+  - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
+  - [sigstore-软件签名校验](zh-cn/sigstore)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
@@ -33,7 +35,6 @@
   - [attackgen](zh-cn/attackgen)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
-  - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
