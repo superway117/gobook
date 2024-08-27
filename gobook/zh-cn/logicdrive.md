@@ -49,3 +49,11 @@ func main() {
 go run test.go
 C:\
 ```
+
+`getLogicalDriveStringsW.Call(uintptr(len(buf)), uintptr(unsafe.Pointer(&buf[0])))`
+传递给`getLogicalDriveStringsW`的参数为什么都要转成`unitptr`?
+
+在上面的代码中，getLogicalDriveStringsW.Call函数接受的参数是uintptr类型，因此我们需要将len(buf)和&buf[0]转换为uintptr类型。这是为了与底层的Windows API函数调用兼容。
+
+在Go中，uintptr是一个无符号整数类型，用于存储指针或者指针运算的结果。在这种情况下，我们需要将参数转换为uintptr类型以适应syscall包的调用方式。
+
