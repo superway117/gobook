@@ -50,6 +50,7 @@
 - 序列化、压缩算法
   - [Zstandard](zh-cn/zstd)
   - [pickle](zh-cn/pickle)
+  - [go-archive-zip-crypto](zh-cn/go-archive-zip-crypto)
 - Wails
   - [Wails Start](zh-cn/wails_start)
 - 流量分析
@@ -66,6 +67,3 @@
   - [goversioninfo](zh-cn/goversioninfo)
 - 通道
   - [Trojan-Go](zh-cn/Trojan-Go)
- 
-
-  
