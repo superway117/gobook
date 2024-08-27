@@ -30,6 +30,7 @@
   - [临时文件](zh-cn/ioutil_temp)
   - [filepath](zh-cn/filepath)
   - [filewalk](zh-cn/filewalk)
+  - [logicdrive](zh-cn/logicdrive)
   - [路径相关的常见函数](zh-cn/pathfuncs)
 - 日志系统
   - [Logrus](zh-cn/logrus)
