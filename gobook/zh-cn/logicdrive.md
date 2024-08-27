@@ -57,3 +57,13 @@ C:\
 
 在Go中，uintptr是一个无符号整数类型，用于存储指针或者指针运算的结果。在这种情况下，我们需要将参数转换为uintptr类型以适应syscall包的调用方式。
 
+`GetLogicalDriveStringsW`的函數原型
+```
+DWORD GetLogicalDriveStringsW(
+  [in]  DWORD  nBufferLength,
+  [out] LPWSTR lpBuffer
+);
+```
+
+## References 
+- [man getlogicaldrivestringsw](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getlogicaldrivestringsw)
