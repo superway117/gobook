@@ -9,6 +9,7 @@
   - [encoding](zh-cn/string_encoding)
   - [split](zh-cn/string_split)
   - [json-字符串-map](zh-cn/json)
+  - [json字符串格式化打印](zh-cn/json-format)
 - 数组
   - [常见数组操作](zh-cn/array)
 - Struct
@@ -26,7 +27,8 @@
 - 文件系统
   - [读文件](zh-cn/readfile)
   - [读目录](zh-cn/readdir)
-  - [fsnotify文件监控](zh-cn/fsnotify)
+  - [fsnotify-文件监控](zh-cn/fsnotify)
+  - [notify-Filesystem event notification](zh-cn/notify)
   - [临时文件](zh-cn/ioutil_temp)
   - [filepath](zh-cn/filepath)
   - [filewalk](zh-cn/filewalk)
@@ -45,6 +47,7 @@
 - 文件植入
   - [embed](zh-cn/embed)
   - [packr](zh-cn/packr) 
+  - [debme目录结构植入](zh-cn/debme) 
 - 文件扫描
   - [yapscan](zh-cn/yapscan)
 - 序列化、压缩算法
@@ -67,3 +70,5 @@
   - [goversioninfo](zh-cn/goversioninfo)
 - 通道
   - [Trojan-Go](zh-cn/Trojan-Go)
+- 调试
+  - [adfer-Panic recovery](zh-cn/adfer)

@@ -12,6 +12,8 @@ Available encryption:
 - zip.AES256Encryption
 
 
+Example Encrypt Zip
+
 ```go
 package main
 
