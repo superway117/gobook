@@ -44,6 +44,8 @@
   - [attackgen](zh-cn/attackgen)
   - [subfinder-子域名搜索](zh-cn/subfinder)
   - [finddomain-子域名搜索](zh-cn/finddomain)
+  - [fscan-内网综合扫描工具](zh-cn/fscan)
+  - [kscan-全方位扫描器](zh-cn/kscan)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
