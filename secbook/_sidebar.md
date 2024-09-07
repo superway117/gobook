@@ -56,6 +56,7 @@
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)
+  - [Pesidious-基于强化学习的样本变形](zh-cn/Pesidious)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
  
