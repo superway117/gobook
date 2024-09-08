@@ -1,7 +1,49 @@
 ## MalwareDB
 
-[MalwareDB](https://github.com/EgeBalci/MalwareDB)
-[MalwareDB](https://github.com/gmh5225/MalwareDB)
+- [MalwareDB](https://github.com/EgeBalci/MalwareDB)
+- [MalwareDB](https://github.com/gmh5225/MalwareDB)
+
+## MalwareSamples
+
+- [Malware-Feed](https://github.com/MalwareSamples/Malware-Feed)
+- [Malware-Sample-Sources](https://github.com/Virus-Samples/Malware-Sample-Sources)
+- [Linux-Malware-Samples](https://github.com/MalwareSamples/Linux-Malware-Samples)
+- [Macos-Malware-Samples](https://github.com/MalwareSamples/Macos-Malware-Samples)
+- [Android-Malware-Samples](https://github.com/MalwareSamples/Android-Malware-Samples)
+- [Ransomware-Malware-Samples](https://github.com/MalwareSamples/Ransomware-Malware-Samples)
+
+## PackingData packware
+
+Original dataset with sample PE files packed with a large variety of packers, including ASPack, BeRoEXEPacker, exe32pack, eXpressor, FSG, JDPack, MEW, Molebox, MPRESS, Neolite, NSPack, Pckman, PECompact, PEtite, RLPack, UPX, WinUpack, Yoda's Crypter and Yoda's Protector.
+
+- [PackingData](https://github.com/chesvectain/PackingData)
+
+
+Effects of packers on machine-learning-based malware classifiers that use only static analysis
+
+- [packware](https://github.com/ucsb-seclab/packware)
+
+
+Dataset of packed PE samples
+
+- [dataset-packed-pe](https://github.com/packing-box/dataset-packed-pe)
+
+
+Dataset of Packed ELF
+
+- [dataset-packed-ELF](https://github.com/dhondta/dataset-packed-elf)
+
+
+## theZoo
+
+A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public.
+
+- [theZoo](https://github.com/ytisf/theZoo)
+
+
+##
+
+##
 
 Size of repository: 1,41 GB
 

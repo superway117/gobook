@@ -16,6 +16,7 @@
   - [WFP实现流量阻断](zh-cn/wfp_block)
 - 流量协议分析
   - [DPI](zh-cn/dpi)
+  - [Hfinger-指纹识别工具](zh-cn/Hfinger)
 - 文件静态分析
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
@@ -46,17 +47,25 @@
   - [finddomain-子域名搜索](zh-cn/finddomain)
   - [fscan-内网综合扫描工具](zh-cn/fscan)
   - [kscan-全方位扫描器](zh-cn/kscan)
+  - [afrog](zh-cn/afrog)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
   - [antidebug](zh-cn/antidebug)
+  - [GoDefender-go反调试](zh-cn/GoDefender)
   - [sgn](zh-cn/sgn)
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)
   - [Pesidious-基于强化学习的样本变形](zh-cn/Pesidious)
+  - [JSource-Obfuscator-java源码混淆](zh-cn/JSource-Obfuscator)
+  - [jar-obfuscator-JAR/CLASS混淆](zh-cn/jar-obfuscator)
+  - [yGuard-java源码混淆](zh-cn/https://github.com/yWorks/yGuard)
+  - [proguard-bytecode混淆](zh-cn/proguard)
+  - [masxinlingvonta-Compiles Java ByteCode to LLVM IR](zh-cn/masxinlingvonta)
+  - [obfuscator-A java obfuscator (GUI)](zh-cn/obfuscator)
+  - [pyobfuscate-python混淆](zh-cn/pyobfuscate)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
- 
