@@ -22,6 +22,8 @@
   - [manalyze](zh-cn/manalyze)
   - [sigcheck](zh-cn/sigcheck)
   - [unpack](zh-cn/unpack)
+  - [yarGen-generator for YARA rules](zh-cn/yarGen)
+  - [Loki-Simple IOC and YARA Scanner](zh-cn/Loki)
 - 文件动态分析
   - [获取struct的字段和方法](zh-cn/refect_fileds)
   - [把struct转换成字符串](zh-cn/struct_string)
@@ -67,5 +69,6 @@
   - [masxinlingvonta-Compiles Java ByteCode to LLVM IR](zh-cn/masxinlingvonta)
   - [obfuscator-A java obfuscator (GUI)](zh-cn/obfuscator)
   - [pyobfuscate-python混淆](zh-cn/pyobfuscate)
+  - [javascript-obfuscator](zh-cn/javascript-obfuscator)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)

@@ -10,6 +10,7 @@
   - [GoRat](zh-cn/gorat)
   - [donut](zh-cn/donut)
   - [VX-API(malicious functionality)](zh-cn/VX-API)
+  - [Keylogger](zh-cn/Keylogger)
 - 流量报警
   - [常见数组操作](zh-cn/array)
 - WFP
@@ -69,5 +70,6 @@
   - [masxinlingvonta-Compiles Java ByteCode to LLVM IR](zh-cn/masxinlingvonta)
   - [obfuscator-A java obfuscator (GUI)](zh-cn/obfuscator)
   - [pyobfuscate-python混淆](zh-cn/pyobfuscate)
+  - [javascript-obfuscator](zh-cn/javascript-obfuscator)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
