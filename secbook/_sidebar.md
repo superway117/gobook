@@ -32,6 +32,7 @@
   - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
   - [sigstore-软件签名校验](zh-cn/sigstore)
   - [c源码 static-analysis](zh-cn/static-analysis)
+  - [find-sec-bugs](zh-cn/find-sec-bugs)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
@@ -58,6 +59,7 @@
   - [antidebug](zh-cn/antidebug)
   - [GoDefender-go反调试](zh-cn/GoDefender)
   - [sgn](zh-cn/sgn)
+  - [darkPulse](zh-cn/darkPulse)
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)
