@@ -17,21 +17,25 @@
   - [DPI](zh-cn/dpi)
   - [Hfinger-指纹识别工具](zh-cn/Hfinger)
 - 文件静态分析
+  - [static-analysis网站集合](zh-cn/static-analysis)
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
   - [sigcheck](zh-cn/sigcheck)
   - [unpack](zh-cn/unpack)
   - [yarGen-generator for YARA rules](zh-cn/yarGen)
   - [Loki-Simple IOC and YARA Scanner](zh-cn/Loki)
+  - [EnBinDiff-识别二进制文件的纯数据补丁](zh-cn/EnBinDiff)
 - 文件动态分析
-  - [获取struct的字段和方法](zh-cn/refect_fileds)
-  - [把struct转换成字符串](zh-cn/struct_string)
+  - [dynamic-analysis网站集合](zh-cn/dynamic-analysis)
 - 源码检测
   - [bandit](zh-cn/bandit)
   - [trufflehog-代码敏感信息检测](zh-cn/trufflehog)
   - [sigstore-软件签名校验](zh-cn/sigstore)
-  - [c源码 static-analysis](zh-cn/static-analysis)
   - [find-sec-bugs](zh-cn/find-sec-bugs)
+  - [flawfinder-C/C++漏洞发现](zh-cn/flawfinder)
+  - [railroader-Ruby on Rails漏洞发现](zh-cn/railroader)
+- 漏洞挖掘
+  - [Joern](zh-cn/Joern)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
@@ -50,6 +54,7 @@
   - [fscan-内网综合扫描工具](zh-cn/fscan)
   - [kscan-全方位扫描器](zh-cn/kscan)
   - [afrog](zh-cn/afrog)
+  - [hfinger](zh-cn/hfinger)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
@@ -60,6 +65,7 @@
   - [sgn](zh-cn/sgn)
   - [donut](zh-cn/donut)
   - [darkPulse](zh-cn/darkPulse)
+  - [needle-go shellcode loader](zh-cn/needle)
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)

@@ -41,13 +41,6 @@ docker run -it egee/sgn
 
 
 ```
-       __   _ __        __                               _ 
-  ___ / /  (_) /_____ _/ /____ _  ___ ____ _  ___  ___ _(_)
- (_-</ _ \/ /  '_/ _ `/ __/ _ `/ / _ `/ _ `/ / _ \/ _ `/ / 
-/___/_//_/_/_/\_\\_,_/\__/\_,_/  \_, /\_,_/ /_//_/\_,_/_/  
-========[Author:-Ege-Balcı-]====/___/=======v2.0.1=========  
-    ┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻           (ノ ゜Д゜)ノ ︵ 仕方がない
-
 Usage: sgn
 
 Flags:
@@ -127,58 +120,7 @@ LFSR itself is pretty powerful in terms of probability space. For even more poli
 <p align="center">
   <img src="https://github.com/EgeBalci/sgn/raw/master/img/matrices.svg">
 </p>
-## Used in Go
-
-config it with Encode structure
-
-
-```
-type Encoder struct {
-  architecture     int
-  ObfuscationLimit int
-  PlainDecoder     bool
-  Seed             byte
-  EncodingCount    int
-  SaveRegisters    bool
-}
-```
-
-```
-package main
-
-import (
-  "encoding/hex"
-  "fmt"
-  "os"
-
-  sgn "github.com/egebalci/sgn/pkg"
-)
-
-func main() {
-  // First open some file
-  file, err := os.ReadFile("myfile.bin")
-  if err != nil { // check error
-    fmt.Println(err)
-    return
-  }
-  // Create a new SGN encoder
-  encoder, err := sgn.NewEncoder(64)
-  if err != nil {
-    fmt.Println(err)
-    return
-  }
-  // Encode the binary
-  encodedBinary, err := encoder.Encode(file)
-  if err != nil {
-    fmt.Println(err)
-    return
-  }
-  // Print out the hex dump of the encoded binary
-  fmt.Println(hex.Dump(encodedBinary))
-
-}
-```
-
+ 
 ## References
 - [github sgn](https://github.com/EgeBalci/sgn)
  
