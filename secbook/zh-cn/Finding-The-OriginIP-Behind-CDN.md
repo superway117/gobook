@@ -8,9 +8,7 @@
 
 >具体 CDN 的相关原理网上都有阐述，有兴趣的读者可以去自行了解，本篇指南旨在攻击，追求简洁、高效、实用，就不再多赘述一些概念性相关的东西了。
 
-![Alt text](./static/1609859142310.png)
-
-![Alt text](./static/cdn.png)
+ 
 ---
 
 ### 0x01 常见 CDN 服务商
@@ -63,68 +61,50 @@ SecurityTrails（前身为 DNS Trails）拥有大约3.5万亿DNS记录，3亿who
 
 SecurityTrails 是我最常用的平台之一，免费、精准，数据量极其庞大，足够支撑日常。
 
-DNS 记录：
-
-![Alt text](./static/1609835365555.png)
-
-IP历史：
-
-![Alt text](./static/1609837315105.png)
-
-子域名：
-
-![Alt text](./static/1609837340076.png)
-
+  
 
 2.Complete DNS（https://completedns.com/）
 
 Complete DNS 拥有超过 22 亿个DNS变更记录，提供API，支持同时进行多域名/IP查询。
 
-![Alt text](./static/1609835942920.png)
-
+ 
 3.WhoISrequest （https://whoisrequest.com/）
 
 WhoISrequest 这个网站自2002年以来一直在跟踪和记录DNS历史变更，数据底蕴很足。
-
-![Alt text](./static/1609836305819.png)
-
-这种时间线设计的UI风格很不戳，点赞。
+ 
 
 4.Whoxy（https://www.whoxy.com/）
 
 Whoxy 拥有爬取超过 3.65亿个子域数据，该网站 API 调用非常方便，以 XML 和 JSON 格式返回数据。
-
-![Alt text](./static/1609837639641.png)
+ 
 
 5.微步Threatbook（https://x.threatbook.cn/）
 
 Threatbook 微步在线针对 IP、域名 进行综合查询威胁情报、历史记录、子域名解析、DNS解析等等信息，支持 API 查询，非常方便。
 
-![Alt text](./static/1609841496291.png)
+ 
 
 6. Netcraft（https://netcraft.com/）
 
 Netcraft 不用多说了吧，很多人都知道，不过仁者见仁智者见智吧，经过时代的变迁，Netcraft 也不是曾经的那个少年了，这里只是提一下，仅供参考。
 
-![Alt text](./static/1609841877975.png)
+ 
 
 7. Viewdns（https://viewdns.info/）
 
 Viewdns 可以说是非常的简洁直观了，就算你不懂任何英文，我相信你也看的懂，至少你知道在哪里输入对吧。响应速度也是非常快了，首页一目了然，集成了超多的查询功能。
 
-![Alt text](./static/1609841966166.png)
+ 
 
 找你需要的功能查询就好，用网站提供的 API 也可以
 
-![Alt text](./static/1609842005237.png)
+ 
 
 8.Whoisxmlapi（https://reverse-ip.whoisxmlapi.com/）
 
 Whoisxmlapi 数据库包含了超过1.4亿多个域名生态数据，用来反查 IP 和 DNS 数据，在绕过 CDN 时候做反向对比非常有用。网站和 whoxy 一样，也是以 XML 和 JSON 格式返回数据，支持自定义。
 
-![Alt text](./static/1609842380777.png)
-
-![Alt text](./static/1609842464853.png)
+ 
 
 9. Dnsdb（https://dnsdb.io/）
 
@@ -132,19 +112,16 @@ Dnsdb 功能非常强大，老平台了，也是我常用平台之一。
 
 搜索前可以先简单学习一下搜索语法：
 
-![Alt text](./static/1609842645459.png)
-
+ 
 觉得难？不想学？那也没关系，站长已经考虑到你这种懒人情况了，首页就有给懒人准备的搜索构造器，十分友好：
 
-![Alt text](./static/1609842713752.png)
-
-![Alt text](./static/1609842762873.png)
+ 
 
 10.SubDomainTools（https://ruo.me/sub）
 
 在线子域名查询，支持实时模式和后台模式，不阻塞前端线程，不占CPU，小测试的时候非常方便。
 
-![Alt text](./static/1609843721712.png)
+ 
 
 ###### 2、IOT 物联网络空间测绘搜索引擎
 
@@ -152,30 +129,25 @@ Dnsdb 功能非常强大，老平台了，也是我常用平台之一。
 
 Censys 可帮助安全从业人员发现可从Internet访问的设备，包括 IP 地址、开放端口、物理定位、域名信息、托管服务商、SSL 证书 等等数据，从中发现需要的信息追踪到网站真实的 IP 地址。
 
-![Alt text](./static/1609844179805.png)
+ 
 
 2.FOFA（https://fofa.so/）
 
 FOFA 可以迅速进行网站资产匹配，加快后续工作进程，如漏洞影响范围分析，应用分布统计，应用流行度排名统计等。FOFA 非常友好，即使免费，也可以查询足够多的数据量，只要你不是商用或者大需求用户，是不需要开会员的。
 
-![Alt text](./static/1609843385119.png)
-
-![Alt text](./static/1609844408404.png)
-
+ 
 3.Shodan（https://www.shodan.io/）
 
 Shodan 被称为互联网上最强大的搜索引擎，主要是用来搜索网络空间中在线设备的，可以通过 Shodan 搜索指定的设备，或者搜索特定类型的设备，它可以帮助安全研究人员找到有关他们所研究目标的有用信息。
 
 语法特别强大，建议搜索前好好浏览一下筛选器文档，可以达到事半功倍的效果。
 
-![Alt text](./static/1609844734168.png)
-
+ 
 4.Zoomeye
 
 Zoomeye，钟馗之眼，知道创宇打造的宇宙级网络空间搜索引擎，Shodan 侧重于主机设备，Zoomeye 则偏向于 Web 发现。
 
-![Alt text](./static/1609845029003.png)
-
+ 
 ###### 3、工具和脚本
 
 1.SubDomainsBrute
@@ -188,8 +160,7 @@ SubDomainsBrute 是通过纯 DNS 爆破来寻找子域名，为了最大提升�
 
 如图，我们针对一个泛解析的域名进行爆破，subDomainsBrute 会提示 any-sub 错误，之后使用 -w 参数开启泛解析强制爆破：
 
-![Alt text](./static/1609847222894.png)
-
+ 
 2.ESD
 
 项目地址：https://github.com/FeeiCN/ESD
@@ -213,8 +184,7 @@ python3 环境下通过 pip 直接安装：
 $ pip install esd
 ```
 
-![Alt text](./static/1609851611789.png)
-
+ 
 基本用法（项目官方给出）:
 
 ```python
