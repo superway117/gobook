@@ -47,6 +47,7 @@
   - [whids](zh-cn/whids)
   - [gene](zh-cn/gene)
   - [RetrievIR](zh-cn/RetrievIR)
+  - [AuthLogParser](zh-cn/AuthLogParser)
 - 探测
   - [attackgen](zh-cn/attackgen)
   - [subfinder-子域名搜索](zh-cn/subfinder)
@@ -55,6 +56,7 @@
   - [kscan-全方位扫描器](zh-cn/kscan)
   - [afrog](zh-cn/afrog)
   - [hfinger](zh-cn/hfinger)
+  - [Finding-The-OriginIP-Behind-CDN](zh-cn/Finding-The-OriginIP-Behind-CDN)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
@@ -80,3 +82,6 @@
   - [javascript-obfuscator](zh-cn/javascript-obfuscator)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
+- 供应链安全
+  - [Dependency Check](zh-cn/DependencyCheck)
+  - [trivy](zh-cn/trivy)

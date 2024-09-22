@@ -12,6 +12,14 @@ include apt、keylooger、packers、ransomware、rootkit、backdoor、email-worm
 - [Android-Malware-Samples](https://github.com/MalwareSamples/Android-Malware-Samples)
 - [Ransomware-Malware-Samples](https://github.com/MalwareSamples/Ransomware-Malware-Samples)
 
+## malware-1
+
+Malware Samples. Uploaded to GitHub for those want to analyse the code. Code mostly from: http://www.malwaretech.com
+
+- [malware-1](https://github.com/alexandreborges/malware-1)
+- [malware-1](https://github.com/RamadhanAmizudin/malware)
+
+
 ## PackingData packware
 
 Original dataset with sample PE files packed with a large variety of packers, including ASPack, BeRoEXEPacker, exe32pack, eXpressor, FSG, JDPack, MEW, Molebox, MPRESS, Neolite, NSPack, Pckman, PECompact, PEtite, RLPack, UPX, WinUpack, Yoda's Crypter and Yoda's Protector.
