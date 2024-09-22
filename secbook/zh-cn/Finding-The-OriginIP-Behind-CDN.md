@@ -247,7 +247,7 @@ esd --domain qq.com --ca-info
 
 ESD 目前仅支持 Linux 系统，这是其源码决定的，不过我们可以 DIY 让它支持 windows
 
-![Alt text](./static/1609852147581.png)
+
 
 可以看到，engine.py 引擎脚本中，写死了目录是 `/tmp/esd` ，如果要在 windows 上使用，我们只需要替换这里为 windows 的输出目录即可。
 
@@ -283,7 +283,7 @@ ESD 目前仅支持 Linux 系统，这是其源码决定的，不过我们可以
 
 Seay 法师的作品，很早就有了，非常强大的一款 windows 上的 GUI 图形化工具，经历了数个版本的迭代，官方最新版是5.0，当然还有不计其数的网友自定义修改版本在野流传。
 
-![Alt text](./static/1609854276935.png)
+
 
 4.Xray
 
@@ -291,11 +291,11 @@ Seay 法师的作品，很早就有了，非常强大的一款 windows 上的 GU
 
 xray 是一款强大的安全评估工具，一款自动化扫描器，我们可以用其自带的 subdomain 子域名发掘功能来针对性探测：
 
-![Alt text](./static/1609892872918.png)
+
 
 subdomain 功能支持暴力破解模式和非暴力模式，可以只探测 web 服务或者只探测 ip 可解析的子域，另外支持 webhook 数据传递，作为插件端或者分发消息的接收端来使用都非常方便快捷。
 
-![Alt text](./static/1609896788865.png)
+
 
 5.Bypass-firewalls-by-DNS-history
 
@@ -314,7 +314,7 @@ bash bypass-firewalls-by-DNS-history.sh -d example.com
 -a --checkall: Check all subdomains for a WAF bypass
 ```
 
-![Alt text](./static/1609918686608.png)
+
 
 
 此外，类似的还有 `subfinder` 、`dnsprobe` 等等工具，有兴趣的读者可以自行去研究了解其工作原理和机制。
@@ -329,7 +329,7 @@ bash bypass-firewalls-by-DNS-history.sh -d example.com
 - 某业务执行后发送的邮件通知
 - 员工邮箱、邮件管理平台等入口处的忘记密码
 
-![Alt text](./static/1609867423224.png)
+
 
 
 另外这里还有一个`奇淫技巧`，通过发送邮件给一个不存在的邮箱地址，比如 000xxx@domain.com ，因为该用户不存在，所以发送将失败，并且还会收到一个包含发送该电子邮件给你的服务器的真实 IP 通知。
@@ -343,7 +343,7 @@ bash bypass-firewalls-by-DNS-history.sh -d example.com
 - 证书颁发机构 (CA) 必须将他们发布的每个 SSL/TLS 证书发布到公共日志中，SSL/TLS 证书通常包含域名、子域名和电子邮件地址。因此可以利用 SSL/TLS 证书来发现目标站点的真实 IP 地址。
 - CDN 运营商在给服务器提供保护的同时，也会与其服务器进行加密通信（ssl），这时当服务器的 443 端口接入域名时也会在 443 端口暴露其证书，我们通过证书比对便可发现网站的真实 IP 地址。
 
-![Alt text](./static/1609898369697.png)
+
 
 ######1.利用 Censys 引擎（https://censys.io/）
 
@@ -351,13 +351,13 @@ bash bypass-firewalls-by-DNS-history.sh -d example.com
 
 可以看到，当我们针对一个互联网 IP 地址进行搜索时，是有匹配到证书 sha1 签名的
 
-![Alt text](./static/1609899654154.png)
+
 
 同理，我们根据域名指纹搜索 SSL 证书指纹，然后再反查 IP 就可以了。
 
 首先针对目标域名，选择 `Certificates` 证书搜索，结果出来一堆 `有效` 的证书和 `无效 ` 的证书：
 
-![Alt text](./static/1609900222284.png)
+
 
 测试过程中，很容易陷入思维误区，认为 `有效` 的证书才是我们需要的，但其实并不一定，很多服务器配置错误依然保留的是 `无效` 的证书，就比如例子中，在结果特别多的情况下，我又使用 Censys 的语法搜索，来精准定位 `有效` SSL 证书，减少结果：
 
@@ -365,21 +365,21 @@ bash bypass-firewalls-by-DNS-history.sh -d example.com
 parsed.names: xxx.com and tags.raw: trusted
 ```
 
-![Alt text](./static/1609900562834.png)
+
 
 瞬间减少到了 2 个结果，我们逐个点开，然后 sha1 签名反查 IPV4 主机：
 
-![Alt text](./static/1609900755052.png)
+
 
 不过很遗憾，两条记录全都没查到：
 
-![Alt text](./static/1609900799143.png)
+
 
 这也从侧面说明了，不是所有的网站只有其 `有效` 证书会匹配其 IP 服务器。
 
 于是只能回到最开始，从所有的结果里面依次打开往下反查指纹，最终定位到了真实 IP ：
 
-![Alt text](./static/1609901014696.png)
+
 
 安全不仅是个技术活，也是个细心活。
 
@@ -391,7 +391,7 @@ openssl：
 openssl s_client -connect 123.123.123.123:443 | grep subject
 ```
 
-![Alt text](./static/1609901819446.png)
+
 
 curl：
 
@@ -399,7 +399,7 @@ curl：
 curl -v https://123.123.123.123 | grep 'subject'
 ```
 
-![Alt text](./static/1609902562508.png)
+
 
 ###### 3.使用工具和脚本
 
@@ -411,7 +411,7 @@ curl -v https://123.123.123.123 | grep 'subject'
 
  在 Censys 注册一个账号并进入 https://censys.io/account/api 获取 API ID 和 Secret：
 
-![Alt text](./static/1609912655696.png)
+
 
 将 CloudFlair 克隆到本地并把 API ID 和 Secret 导入环境变量：
 
@@ -476,9 +476,9 @@ $ python cloudflair.py --censys-api-id xxx  --censys-api-secret xxx baidu.com
 
 可以通过 https://crt.sh 进行快速证书查询收集
 
-![Alt text](./static/1609921963504.png)
 
-![Alt text](./static/1609921974193.png)
+
+
 
 附上查询的 python 小脚本：
 
@@ -502,7 +502,7 @@ if __name__ == '__main__':
 ```
 获得所有包含证书的子域：
 
-![Alt text](./static/1609922128990.png)
+
 
 
 
@@ -514,13 +514,13 @@ if __name__ == '__main__':
 $ nslookup target.com <海外 DNS 地址>
 ```
 
-![Alt text](./static/1609922290200.png)
+
 
 也可以使用海外的超级ping类的平台在线多国家多地区测试，推荐 https://www.host-tracker.com/v3/check/ ，支持 140 多个地区的 ping 测试，另外支持针对某子域超长期的监控，通过邮件通知，简直太强大了。
 
-![Alt text](./static/1609940418986.png)
 
-![Alt text](./static/1609940432699.png)
+
+
 
 
 
@@ -565,7 +565,7 @@ Set-Cookie: BIGipServerpool_9.29_5229=605532106.22012.0000
 
 很多网站启用 CDN  后，配置了拒绝直接访问真实 IP ，比如 CloudFlare 的提示：
 
-![Alt text](./static/1609924326577.png)
+
 
 因此可以通过匹配特征标头的方法，去缩小范围，这里还是使用 Censys 查询：
 
@@ -574,13 +574,13 @@ Set-Cookie: BIGipServerpool_9.29_5229=605532106.22012.0000
 
 eg: 80.http.get.headers.server:cloudflare
 ```
-![Alt text](./static/1609924510054.png)
+
 
 针对整个互联网的搜索 IP 结果进一步匹配，比如通过 端口、地理位置、banner 特征、反查邮箱、联系方式等等信息，继续精确结果：
 
-![Alt text](./static/1609924718669.png)
 
-![Alt text](./static/1609924903773.png)
+
+
 
 ##### 十、通过 XML-RPC PINGBACK 通信
 
@@ -620,11 +620,11 @@ Content-Length: 323
 
 响应：
 
-![Alt text](./static/1609936601531.png)
+
 
 刷新一下 dnslog ，获得了真实服务器 IP：
 
-![Alt text](./static/1609937441252.png)
+
 
 ##### 十一、通过 FTP/SCP 协议
 
@@ -665,16 +665,16 @@ Content-Length: 323
 
 IP 正确，子域错误：
 
-![Alt text](./static/1609947516374.png)
+
 
 IP 正确，子域正确：
 
-![Alt text](./static/1609947462269.png)
+
 
 
 IP 错误，子域正确：
 
-![Alt text](./static/1609947608941.png)
+
 
 
 自动化的过程可以使用 virtual-host-discovery 工具，项目地址：https://github.com/jobertabma/virtual-host-discovery
@@ -692,11 +692,11 @@ $ ruby scan.rb --ip=x.x.x.x --host=domain  --wordlist=<dict file>
 
 执行后，即可快速找出命中 IP 的子域
 
-![Alt text](./static/1609947720683.png)
+
 
 另外可以通过 find-virtual-hosts （https://pentest-tools.com/information-gathering/find-virtual-hosts#）工具来在线快速针对全网数据扫描比对得出结果：
 
-![Alt text](./static/1610004915761.png)
+
 
 ##### 十七、通过 favicon.ico 哈希特征
 
@@ -738,20 +738,20 @@ $ apt-get install g++
 $ python 3.py
 ```
 
-![Alt text](./static/1609949974253.png)
+
 
 然后用 shodan 搜索引擎搜索哈希，去命中 IP：
 
 ```bash
 $ proxychains shodan search http.favicon.hash:1730752770 --fields ip_str,port --separator " " | awk '{print $1":
 ```
-![Alt text](./static/1609979138336.png)
+
 
 另外值得一提的是，渗透过程中同样可以根据 favicon 哈希、子域、IP 的命中，做好指纹排序并整理，另外做一张常见的中间件或者组件指纹哈希表，分类进行资产快速命中：
 
-![Alt text](./static/1609981902217.png)
 
-![Alt text](./static/1609981925486.png)
+
+
 
 ##### 十八、通过网页源码特征值
 
@@ -759,7 +759,7 @@ $ proxychains shodan search http.favicon.hash:1730752770 --fields ip_str,port --
 
 例如源码中找到一段 Google Analytics 的 JS 特征：
 
-![Alt text](./static/1609987888510.png)
+
 
 
 然后 shodan 搜索这些代码特征：
@@ -771,7 +771,7 @@ http.html:GTM-XXXXXX
 
 定位到了服务器源 IP ：
 
-![Alt text](./static/1609988013424.png)
+
 
 ##### 十九、通过网站远程资源业务
 
@@ -796,7 +796,7 @@ http.html:GTM-XXXXXX
 - 网站需要服务器，但是再土豪的公司，也不可能一个域名一台服务器，大多数情况下，都是多个域名业务，共用一台服务器。
 - 那么如果目标网站存在备案，可以查询其备案信息，收集该单位或者个人备案的其他网站域名以及其他子域，然后再进行一轮广域的探测，很有可能其中的某个边缘子域，没有做 CDN，就直接暴露了真实服务器的 IP 地址，然后再进一步验证该 IP 是否也是目标网站的真实 IP 。
 
-![Alt text](./1609989480487.png)
+
 
 - 特别提一哈，此方法成功率特别的高，而且找到的速度非常的快，所以写在后面，有毅力坚持读下来的同学可以看到。
 
@@ -874,30 +874,30 @@ $ python cloudfail.py -t domain.com
 ```
 闭眼休息一会，一会就跑出来了：
 
-![Alt text](./1610008247459.png)
+
 
 喜欢偷懒的同学可以使用在线查询：`https://suip.biz/?act=cloudfail` 已经将此工具集成到了后台，并做了前端 UI 页面供安全信息从业人员在线查询：
 
-![Alt text](./1610008613919.png)
 
-![Alt text](./1610008639802.png)
+
+
 
 脚本执行的结果前端直接可以看到，另外提供 PDF 报告下载，这里我用的是 baidu.com 测试，因为 baidu.com 并没有使用 CloudFlare CDN ，所以速度很快。
 
 如果是查询使用了 CloudFlare CDN 的域名，速度会比较慢，页面会置空，什么都不显示：
 
-![Alt text](./1610008845069.png)
+
 
 稍等一段时间就可以了，这里也给大家截个图，防止有同学误会工具不可以使用：
 
-![Alt text](./1610010599215.png)
+
 
 ### 0x05 找到真实 IP 后如何使用
 
 - 通过修改 hosts 文件，将域名和 IP 绑定。（要是不会，不建议阅读此文。）
 - 如使用 burpsuite 测试，可以在 Project options ----> Connections ----> Hostname Resolution 中增加域名和 IP 记录。
 
-![Alt text](./1610010937798.png)
+
 
 ### 0x06 来自高纬度的对抗
 
