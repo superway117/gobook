@@ -1,14 +1,7 @@
-# CDN 2023 完全攻击指南 （一）
-
->这是一篇全网（无论国内还是国外）最全、最详细、最新、最实用的关于 CDN 网络对抗攻击的文章，渗透测试中若碰到 CDN 类的问题，只需要看这一篇指南即可。我也会在 Github 长期保持此文的更新，更新与修正新的对抗技术、工具和网站。
-
 >Content Delivery Network，中文全称为内容分发网络，简称为 CDN 。
 
 >使用 CDN 技术可以有效的提高网站的访问速度和安全性，因此目前互联网上，超过 50％ 的 Alexa 前 1000 网站和超过 35％ 的 Alexa 前 10000 的网站都部署在 CDN 网络后面，所有请求网站内容的用户都将从最近的 CDN 代理服务器获取其缓存版本，因此内容加载速度更快，网站的性能得到改善。
 
->具体 CDN 的相关原理网上都有阐述，有兴趣的读者可以去自行了解，本篇指南旨在攻击，追求简洁、高效、实用，就不再多赘述一些概念性相关的东西了。
-
- 
 ---
 
 ### 0x01 常见 CDN 服务商
@@ -904,11 +897,20 @@ $ python cloudfail.py -t domain.com
 - 协议层的管制 / 动静态表 / 出口阻断 / 并发机制转换 / 编码放大 ……  等等高纬度对抗的内容，将在（二）中细细道来。（未完待续）
 
 
+测试域名
+
+eposcard.co.jp
+template.net
+www.mdpi.com
+www.namecheap.com
+
+
 ## References
 
 - [Finding The Origin IP Behind CDNs](https://infosecwriteups.com/finding-the-origin-ip-behind-cdns-37cd18d5275)
 - [censys api](https://search.censys.io/account/api)
 - [Find origin servers of websites behind CloudFlare by using Internet-wide scan data from Censys](https://github.com/christophetd/CloudFlair)
+- [Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network](https://github.com/m0rtem/CloudFail)
 - [CloudFlair: Bypassing Cloudflare using Internet-wide scan data](https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/)
 - [Finding the Origin IP behind CDNs](https://medium.com/@yevhen.nov/finding-the-origin-ip-behind-cdns-5a34d6443a76)
 - [findCDN is a tool created to help accurately identify what CDN a domain is using.](https://github.com/cisagov/findcdn)
