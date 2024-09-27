@@ -36,6 +36,7 @@
   - [railroader-Ruby on Rails漏洞发现](zh-cn/railroader)
 - 漏洞挖掘
   - [Joern](zh-cn/Joern)
+  - [Ghidra](zh-cn/Ghidra)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
@@ -57,6 +58,7 @@
   - [afrog](zh-cn/afrog)
   - [hfinger](zh-cn/hfinger)
   - [Finding-The-OriginIP-Behind-CDN](zh-cn/Finding-The-OriginIP-Behind-CDN)
+  - [摄像头资源探测](zh-cn/ipc)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
@@ -65,6 +67,7 @@
   - [antidebug](zh-cn/antidebug)
   - [GoDefender-go反调试](zh-cn/GoDefender)
   - [sgn](zh-cn/sgn)
+  - [sgn](zh-cn/amber)
   - [donut](zh-cn/donut)
   - [darkPulse](zh-cn/darkPulse)
   - [needle-go shellcode loader](zh-cn/needle)
@@ -85,3 +88,5 @@
 - 供应链安全
   - [Dependency Check](zh-cn/DependencyCheck)
   - [trivy](zh-cn/trivy)
+- 信息探测
+  - [sherlock-社交媒体搜索](https://github.com/sherlock-project/sherlock)
