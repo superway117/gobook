@@ -74,7 +74,7 @@
   - [SigThief](zh-cn/sigthief)
   - [x0rro](zh-cn/x0rro)
   - [RefleXXion](zh-cn/RefleXXion)
-  - [Pesidious-基于强化学习的样本变形](zh-cn/Pesidious)
+  - [Pesidious-基于强化学习的样本变形](zh-cn/pesidious)
   - [JSource-Obfuscator-java源码混淆](zh-cn/JSource-Obfuscator)
   - [jar-obfuscator-JAR/CLASS混淆](zh-cn/jar-obfuscator)
   - [yGuard-java源码混淆](zh-cn/https://github.com/yWorks/yGuard)

@@ -4,6 +4,43 @@ The purpose of the tool is to use artificial intelligence to mutate a malware (P
 
 
 
+
+install
+
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh  
+
+./Anaconda3-2024.06-1-Linux-x86_64.sh 
+```
+
+prepare
+```
+cd  Pesidious
+conda create -n py36 python=3.6 
+conda activate py36 
+pip install -r pip_requirements/requirements.txt
+pip uninstall numpy
+pip install numpy==1.16.2
+```
+
+build
+```
+conda create -n py36 python=3.6 
+conda activate py36 
+cd  Pesidious
+pyinstaller --onefile --name Pesidious mutate.py
+
+change Pesidious.spec
+datas=[('RES','RES')],
+hiddenimports=['sklearn','sklearn.ensemble','sklearn.neighbors.typedefs','sklearn.neighbors.quad_tree','sklearn.tree._utils','scipy._lib.messagestream'],
+
+
+pyinstaller Pesidious.spec 
+
+```
+
+
+
 ## References
 
 - [github ]https://github.com/CyberForce/Pesidious)
