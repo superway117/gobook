@@ -43,4 +43,6 @@ pyinstaller Pesidious.spec
 
 ## References
 
-- [github ]https://github.com/CyberForce/Pesidious)
+- [github Pesidious](https://github.com/CyberForce/Pesidious)
+- [如何使用Pesidious和人工智能技术来生成恶意软件变种](https://www.freebuf.com/articles/system/256702.html)
+- [pesidious doc](https://vaya97chandni.gitbook.io/pesidious)
