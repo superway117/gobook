@@ -37,6 +37,10 @@
 - 漏洞挖掘
   - [Joern](zh-cn/Joern)
   - [Ghidra](zh-cn/Ghidra)
+  - [esprima-js analysis](zh-cn/esprima)
+  - [acorn-js parser](zh-cn/acorn)
+  - [php-ast](zh-cn/php-ast)
+  - [crawlergo-基于无头的web漏洞发现](zh-cn/crawlergo)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术

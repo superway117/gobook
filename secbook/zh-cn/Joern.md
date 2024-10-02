@@ -4,7 +4,25 @@ PS. 静态分析这部分其实可以使用Codeql代替.
 
 
 
+## install
+
+```
+wget https://github.com/joernio/joern/releases/latest/download/joern-install.sh
+chmod +x ./joern-install.sh
+sudo ./joern-install.sh
+
+```
+## run
+```
+joern
+joern>
+```
+
 
 ## References
 
+- [joern website](https://joern.io)
+- [joern docs](https://docs.joern.io/)
+- [joern installation](https://docs.joern.io/installation/)
 - [复活Navex：使用图查询进行代码分析](https://www.freebuf.com/articles/network/236954.html)
+- [A set of Code-ql/Joern queries to find vulnerabilities](https://github.com/elManto/StaticAnalysisQueries)
