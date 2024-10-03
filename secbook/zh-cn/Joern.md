@@ -21,8 +21,20 @@ joern>
 
 ## References
 
-- [joern website](https://joern.io)
+- [joern github](https://github.com/joernio/joern) 
+- [Code Property Graph Specification](https://cpg.joern.io/) 
+- [joern website](https://joern.io) 
 - [joern docs](https://docs.joern.io/)
 - [joern installation](https://docs.joern.io/installation/)
+- [
+深入浅出Joern（一）Joern与CPG是什么？](https://lorexxar.cn/2023/08/21/joern-and-cpg/)
+[深入浅出Joern（二）CPG与图数据库](https://lorexxar.cn/2023/08/22/joern2/)
+[
+深入浅出Joern（三）Joern和Neo4j常用语法大全](https://lorexxar.cn/2023/08/24/joern3/)
 - [复活Navex：使用图查询进行代码分析](https://www.freebuf.com/articles/network/236954.html)
 - [A set of Code-ql/Joern queries to find vulnerabilities](https://github.com/elManto/StaticAnalysisQueries)
+- [reference-card](https://docs.joern.io/cpgql/reference-card/)
+- [node-type-steps](https://docs.joern.io/cpgql/node-type-steps/)
+
+
+

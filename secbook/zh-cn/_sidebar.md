@@ -25,6 +25,7 @@
   - [yarGen-generator for YARA rules](zh-cn/yarGen)
   - [Loki-Simple IOC and YARA Scanner](zh-cn/Loki)
   - [EnBinDiff-识别二进制文件的纯数据补丁](zh-cn/EnBinDiff)
+  - [PEpper-恶意软件静态分析](zh-cn/PEpper)
 - 文件动态分析
   - [dynamic-analysis网站集合](zh-cn/dynamic-analysis)
 - 源码检测
@@ -93,4 +94,7 @@
   - [Dependency Check](zh-cn/DependencyCheck)
   - [trivy](zh-cn/trivy)
 - 信息探测
-  - [sherlock-社交媒体搜索](https://github.com/sherlock-project/sherlock)
+  - [sherlock-社交媒体搜索](zh-cn/sherlock)
+- 漏洞分析和挖掘案例
+  - [file: stack based buffer overflow](zh-cn/vul/file-CVE-2017-1000249)
+  
