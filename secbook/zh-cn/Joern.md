@@ -35,6 +35,7 @@ joern>
 - [A set of Code-ql/Joern queries to find vulnerabilities](https://github.com/elManto/StaticAnalysisQueries)
 - [reference-card](https://docs.joern.io/cpgql/reference-card/)
 - [node-type-steps](https://docs.joern.io/cpgql/node-type-steps/)
+- [joern queries](https://queries.joern.io/)
 
 
 

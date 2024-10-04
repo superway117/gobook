@@ -37,6 +37,7 @@
   - [railroader-Ruby on Rails漏洞发现](zh-cn/railroader)
 - 漏洞挖掘
   - [Joern](zh-cn/Joern)
+  - [Joern Query Sample](zh-cn/joeryquery)
   - [Ghidra](zh-cn/Ghidra)
   - [esprima-js analysis](zh-cn/esprima)
   - [acorn-js parser](zh-cn/acorn)
