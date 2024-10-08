@@ -33,3 +33,6 @@ analyzeHeadless /usr/bin/ls -import /root/workshop/ghidra_project  -scriptPath /
 
 - [ghidra InstallationGuide](https://ghidra-sre.org/InstallationGuide.html)
 - [github ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- [ghidriff](https://github.com/clearbluejar/ghidriff)
+- [ghidrecomp](https://github.com/clearbluejar/ghidrecomp)
+- [ghidra-pyhidra-callgraphs](https://github.com/clearbluejar/ghidra-pyhidra-callgraphs)

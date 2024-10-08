@@ -25,10 +25,7 @@ int insecure_gets() {
   return 0;
 }
 """
-
 importCode.c.fromString(code)
-
-
 cpg.method("(?i)gets").callIn.l
 ```
 函数存在`gets`所以命中
@@ -138,7 +135,15 @@ val res26: String = """Available steps for `Expression`:
 .arrayAccess   ==> All array accesses 
 ```
 
+```
+joern> cpg.assignment.target.arrayAccess.help
 
+val res5: String = """Available steps for `Call`:
+.array        ==>The expression representing the array                                                                
+.arrayAccess  ==>Outer-most array access
+.arrayAccess  ==>All array accesses  
+.subscript    ==>All identifiers that are part of the offset      
+```
 1. cpg.assignment.target.arrayAccess：首先从CPG中选择目标为数组访问的赋值语句。
 2. map { access => (access.array, access.subscript.code.toSet) }：对每一个数组访问的赋值语句，将数组和下标的代码表示转换为集合形式，形成一个元组。
 3. filter { case (buf, subscripts) => ... }：使用筛选条件，对每个（数组，下标集合）元组进行过滤。
