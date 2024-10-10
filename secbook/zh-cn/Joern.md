@@ -28,9 +28,8 @@ joern>
 - [joern installation](https://docs.joern.io/installation/)
 - [
 深入浅出Joern（一）Joern与CPG是什么？](https://lorexxar.cn/2023/08/21/joern-and-cpg/)
-[深入浅出Joern（二）CPG与图数据库](https://lorexxar.cn/2023/08/22/joern2/)
-[
-深入浅出Joern（三）Joern和Neo4j常用语法大全](https://lorexxar.cn/2023/08/24/joern3/)
+- [深入浅出Joern（二）CPG与图数据库](https://lorexxar.cn/2023/08/22/joern2/)
+- [深入浅出Joern（三）Joern和Neo4j常用语法大全](https://lorexxar.cn/2023/08/24/joern3/)
 - [复活Navex：使用图查询进行代码分析](https://www.freebuf.com/articles/network/236954.html)
 - [A set of Code-ql/Joern queries to find vulnerabilities](https://github.com/elManto/StaticAnalysisQueries)
 - [reference-card](https://docs.joern.io/cpgql/reference-card/)
@@ -38,7 +37,9 @@ joern>
 - [joern queries](https://queries.joern.io/)
 - [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 - [joern neo4j](https://joern.readthedocs.io/)
-- [joern example](https://github.com/hac425xxx/sca-workshop)
+- [joern example sca-workshop](https://github.com/hac425xxx/sca-workshop)
+- [joern example joern-workshop](https://github.com/tuxology/joern-workshop)
+- [C/C++源码扫描系列- Joern 篇](https://xz.aliyun.com/t/9277?time__1311=n4%2BxnD0DuAG%3D3iKi%3DiDsA3xCqeGwTqY5mtAid4x)
 
 
 

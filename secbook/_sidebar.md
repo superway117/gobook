@@ -94,6 +94,8 @@
 - 供应链安全
   - [Dependency Check](zh-cn/DependencyCheck)
   - [trivy](zh-cn/trivy)
+  - [grype](zh-cn/grype)
+  - [syft](zh-cn/syft)
 - 信息探测
   - [sherlock-社交媒体搜索](zh-cn/sherlock)
 - 漏洞分析和挖掘案例
