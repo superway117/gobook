@@ -66,7 +66,10 @@
   - [afrog](zh-cn/afrog)
   - [hfinger](zh-cn/hfinger)
   - [Finding-The-OriginIP-Behind-CDN](zh-cn/Finding-The-OriginIP-Behind-CDN)
+  - [CloudFail-find IP behind CloudFlare](zh-cn/CloudFail)
+  - [findcdn](zh-cn/findcdn)
   - [摄像头资源探测](zh-cn/ipc)
+  - [Exploit Netwave and GoAhead IP Camera](zh-cn/expcamera)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
