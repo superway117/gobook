@@ -70,6 +70,7 @@
   - [findcdn](zh-cn/findcdn)
   - [摄像头资源探测](zh-cn/ipc)
   - [Exploit Netwave and GoAhead IP Camera](zh-cn/expcamera)
+  - [nuclei poc](zh-cn/nuclei-templates)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
 - 杀软绕过
