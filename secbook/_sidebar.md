@@ -44,7 +44,8 @@
   - [php-ast](zh-cn/php-ast)
   - [crawlergo-基于无头的web漏洞发现](zh-cn/crawlergo)
 - 固件分析
-  - [ofrak(unpack/repack binaries)](zh-cn//ofrak)
+  - [ofrak(unpack/repack binaries)](zh-cn/ofrak)
+  - [automatically-renaming-functions-with-ghidra](zh-cn/automatically-renaming-functions-with-ghidra)
 - 隧道
   - [sync](zh-cn/sync)
 - 沙箱技术
@@ -73,6 +74,8 @@
   - [nuclei poc](zh-cn/nuclei-templates)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
+  - [gitleaks](zh-cn/gitleaks)
+  - [phoneinfoga](zh-cn/phoneinfoga)
 - 杀软绕过
   - [packerlist](zh-cn/packerlist)
   - [PEzor](zh-cn/pezor)
