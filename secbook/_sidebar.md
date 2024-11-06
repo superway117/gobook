@@ -50,6 +50,8 @@
   - [sync](zh-cn/sync)
 - 沙箱技术
   - [bcc](zh-cn/bcc)
+- 杀软EDR
+  - [edr评测](zh-cn/edr-telemetry)
 - 应急监测
   - [unhide](zh-cn/unhide)
   - [sysmon](zh-cn/sysmon)
@@ -98,6 +100,7 @@
   - [obfuscator-A java obfuscator (GUI)](zh-cn/obfuscator)
   - [pyobfuscate-python混淆](zh-cn/pyobfuscate)
   - [javascript-obfuscator](zh-cn/javascript-obfuscator)
+  - [psobf-PowerShell的代码混淆](zh-cn/psobf)
 - 权限管理
   - [sysrun(Run any executable as SYSTEM account)](zh-cn/sysrun)
 - 供应链安全
