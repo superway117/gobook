@@ -16,13 +16,25 @@
 - 流量协议分析
   - [DPI](zh-cn/dpi)
   - [Hfinger-指纹识别工具](zh-cn/Hfinger)
+- 杀软EDR
+  - [edr评测](zh-cn/edr-telemetry)
+  - [go-autoruns](zh-cn/go-autoruns)
+  - [spyre](zh-cn/spyre)
+  - [yarGen-generator for YARA rules](zh-cn/yarGen)
+- 应急监测
+  - [unhide](zh-cn/unhide)
+  - [sysmon](zh-cn/sysmon)
+  - [kunai](zh-cn/kunai)
+  - [whids](zh-cn/whids)
+  - [gene](zh-cn/gene)
+  - [RetrievIR](zh-cn/RetrievIR)
+  - [AuthLogParser](zh-cn/AuthLogParser)
 - 文件静态分析
   - [static-analysis网站集合](zh-cn/static-analysis)
   - [样本下载](zh-cn/samples)
   - [manalyze](zh-cn/manalyze)
   - [sigcheck](zh-cn/sigcheck)
   - [unpack](zh-cn/unpack)
-  - [yarGen-generator for YARA rules](zh-cn/yarGen)
   - [Loki-Simple IOC and YARA Scanner](zh-cn/Loki)
   - [EnBinDiff-识别二进制文件的纯数据补丁](zh-cn/EnBinDiff)
   - [PEpper-恶意软件静态分析](zh-cn/PEpper)
@@ -42,6 +54,7 @@
   - [esprima-js analysis](zh-cn/esprima)
   - [acorn-js parser](zh-cn/acorn)
   - [php-ast](zh-cn/php-ast)
+  - [resym](zh-cn/resym)
   - [crawlergo-基于无头的web漏洞发现](zh-cn/crawlergo)
 - 固件分析
   - [ofrak(unpack/repack binaries)](zh-cn/ofrak)
@@ -50,16 +63,6 @@
   - [sync](zh-cn/sync)
 - 沙箱技术
   - [bcc](zh-cn/bcc)
-- 杀软EDR
-  - [edr评测](zh-cn/edr-telemetry)
-- 应急监测
-  - [unhide](zh-cn/unhide)
-  - [sysmon](zh-cn/sysmon)
-  - [kunai](zh-cn/kunai)
-  - [whids](zh-cn/whids)
-  - [gene](zh-cn/gene)
-  - [RetrievIR](zh-cn/RetrievIR)
-  - [AuthLogParser](zh-cn/AuthLogParser)
 - 探测
   - [attackgen](zh-cn/attackgen)
   - [subfinder-子域名搜索](zh-cn/subfinder)
@@ -74,6 +77,8 @@
   - [摄像头资源探测](zh-cn/ipc)
   - [Exploit Netwave and GoAhead IP Camera](zh-cn/expcamera)
   - [nuclei poc](zh-cn/nuclei-templates)
+  - [zgrab2](zh-cn/zgrab2)
+  - [ip2region](zh-cn/ip2region)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
   - [gitleaks](zh-cn/gitleaks)
