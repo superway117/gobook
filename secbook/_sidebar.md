@@ -20,6 +20,7 @@
   - [edr评测](zh-cn/edr-telemetry)
   - [go-autoruns](zh-cn/go-autoruns)
   - [spyre](zh-cn/spyre)
+  - [yapscan](zh-cn/yapscan)
   - [yarGen-generator for YARA rules](zh-cn/yarGen)
 - 应急监测
   - [unhide](zh-cn/unhide)
@@ -57,7 +58,9 @@
   - [resym](zh-cn/resym)
   - [crawlergo-基于无头的web漏洞发现](zh-cn/crawlergo)
 - 固件分析
+  - [emba](zh-cn/emba)
   - [ofrak(unpack/repack binaries)](zh-cn/ofrak)
+  - [BRCM Firmware Image Unpacker](zh-cn/BRCM-Unpack/)
   - [automatically-renaming-functions-with-ghidra](zh-cn/automatically-renaming-functions-with-ghidra)
 - 隧道
   - [sync](zh-cn/sync)
@@ -79,6 +82,8 @@
   - [nuclei poc](zh-cn/nuclei-templates)
   - [zgrab2](zh-cn/zgrab2)
   - [ip2region](zh-cn/ip2region)
+  - [MAC地址制造商](zh-cn/mac)
+  - [海康大华内网探测](zh-cn/sadpTool)
 - 数据安全
   - [lazagne](zh-cn/lazagne)
   - [gitleaks](zh-cn/gitleaks)
@@ -116,5 +121,6 @@
 - 信息探测
   - [sherlock-社交媒体搜索](zh-cn/sherlock)
 - 漏洞分析和挖掘案例
-  - [file: stack based buffer overflow](zh-cn/vul/file-CVE-2017-1000249)
-  
+  - [file: stack based buffer overflow](zh-cn/vul/file-CVE-2017-1000249)  
+- 其他
+  - [kitploit](zh-cn/kitploit)
