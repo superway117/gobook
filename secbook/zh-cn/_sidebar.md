@@ -15,6 +15,7 @@
   - [WFP实现流量阻断](zh-cn/wfp_block)
 - 流量协议分析
   - [DPI](zh-cn/dpi)
+  - [dpkt](zh-cn/dpkt/)
   - [Hfinger-指纹识别工具](zh-cn/Hfinger)
 - 杀软EDR
   - [edr评测](zh-cn/edr-telemetry)
@@ -22,6 +23,7 @@
   - [spyre](zh-cn/spyre)
   - [yapscan](zh-cn/yapscan)
   - [yarGen-generator for YARA rules](zh-cn/yarGen)
+  - [Defender Yara](zh-cn/defender-yara)
 - 应急监测
   - [unhide](zh-cn/unhide)
   - [sysmon](zh-cn/sysmon)
@@ -62,8 +64,11 @@
   - [ofrak(unpack/repack binaries)](zh-cn/ofrak)
   - [BRCM Firmware Image Unpacker](zh-cn/BRCM-Unpack/)
   - [automatically-renaming-functions-with-ghidra](zh-cn/automatically-renaming-functions-with-ghidra)
+  - [fw download](zh-cn/fwdownload)
 - 隧道
   - [sync](zh-cn/sync)
+  - [sim](zh-cn/sim)
+  - [tailscale](zh-cn/tailscale)
 - 沙箱技术
   - [bcc](zh-cn/bcc)
 - 探测
@@ -94,7 +99,7 @@
   - [antidebug](zh-cn/antidebug)
   - [GoDefender-go反调试](zh-cn/GoDefender)
   - [sgn](zh-cn/sgn)
-  - [sgn](zh-cn/amber)
+  - [amber](zh-cn/amber)
   - [donut](zh-cn/donut)
   - [darkPulse](zh-cn/darkPulse)
   - [needle-go shellcode loader](zh-cn/needle)
@@ -120,7 +125,10 @@
   - [syft](zh-cn/syft)
 - 信息探测
   - [sherlock-社交媒体搜索](zh-cn/sherlock)
+  - [trendFinder](zh-cn/trendFinder)
 - 漏洞分析和挖掘案例
-  - [file: stack based buffer overflow](zh-cn/vul/file-CVE-2017-1000249)  
+  - [file: stack based buffer overflow](zh-cn/vul/file-CVE-2017-1000249) 
+- APT情报
+  - [APTnotes](zh-cn/APTnotes) 
 - 其他
   - [kitploit](zh-cn/kitploit)
